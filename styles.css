@@ -1,3 +1,74 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3, i {
+    color: #0101a7;
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #015CFE;
+    color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header i{
+    font-size: 60px;
+    padding-bottom: 2px;
+}
+
+
+/*Formulario*/
+main {
     margin: 2.5% 15%;
+}
+
+.checkbox{
+    align-self: right;
+}
+
+.checkbox input{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+/*Footer Social*/
+
+footer{
+    height: 10em;
+    text-align: center;
+    background-color: #015CFE;
+    color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+footer>h2{
+    padding-top: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+i {
+    padding-right: 10px;
+}
+footer p{
+    font-weight: 500;
 }
