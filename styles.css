@@ -10,6 +10,11 @@ h3, i {
 
 
 /*Header*/
+body{
+    height: 100%;
+    position: relative;
+    padding-bottom: 10em;
+}
 
 header{
     display: flex;
@@ -59,7 +64,7 @@ footer{
     background-color: #015CFE;
     color: aliceblue;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
@@ -91,4 +96,4 @@ footer p{
     margin-left: 3px;
     color: red;
     font-weight: bold;
-  }
+}
