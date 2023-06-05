@@ -6,7 +6,6 @@
 
 h3, i {
     color: #0101a7;
-    padding: 20px;
 }
 
 /*Header*/
@@ -34,24 +33,21 @@ main {
     margin: 2.5% 15%;
 }
 
-
 .checkbox{
     align-self: right;
 }
 
-.checkbox input, select{
+.checkbox input{
     margin-right: 10px;
     margin-left: 20px;
-}
-
-select{
-    margin:10px;
-    margin-right: 20%;
 }
 
 #propertytype_other{
     margin-left: 40px;
 
+}
+.form-control{
+    margin-bottom: 10px;
 }
 /*Footer Social*/
 
