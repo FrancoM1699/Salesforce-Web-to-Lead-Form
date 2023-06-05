@@ -11,9 +11,7 @@ h3, i {
 
 /*Header*/
 body{
-    height: 100%;
-    position: relative;
-    padding-bottom: 10em;
+    min-height: 100vh;
 }
 
 header{
@@ -64,9 +62,8 @@ footer{
     background-color: #015CFE;
     color: aliceblue;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    margin-top: auto;
 }
 footer>h2{
     padding-top: 20px;
