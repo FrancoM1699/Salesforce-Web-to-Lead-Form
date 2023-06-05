@@ -7,6 +7,9 @@
 h3, i {
     color: #0101a7;
 }
+body{
+    height: 100vh;
+}
 
 /*Header*/
 
