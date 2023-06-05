@@ -10,9 +10,9 @@ h3, i {
 
 
 /*Header*/
-body{
+/* body{
     min-height: 100vh;
-}
+} */
 
 header{
     display: flex;
@@ -56,7 +56,7 @@ main {
 
 
 /*Footer Social*/
-footer{
+/* footer{
     height: 10em;
     text-align: center;
     background-color: #015CFE;
@@ -64,7 +64,7 @@ footer{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
     margin-top: auto;
-}
+} */
 footer>h2{
     padding-top: 20px;
 }
@@ -93,4 +93,20 @@ footer p{
     margin-left: 3px;
     color: red;
     font-weight: bold;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    height: 10em;
+    text-align: center;
+    background-color: #015CFE;
+    color: aliceblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    margin-top: auto;
 }
