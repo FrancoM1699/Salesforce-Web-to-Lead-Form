@@ -49,8 +49,9 @@ main {
 .form-control{
     margin-bottom: 10px;
 }
-/*Footer Social*/
 
+
+/*Footer Social*/
 footer{
     height: 10em;
     text-align: center;
@@ -80,3 +81,10 @@ i {
 footer p{
     font-weight: 500;
 }
+
+.is-required:after {
+    content: '*';
+    margin-left: 3px;
+    color: red;
+    font-weight: bold;
+  }
