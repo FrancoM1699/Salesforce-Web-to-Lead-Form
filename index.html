@@ -19,11 +19,11 @@
         <h1>Formulario de Donación</h1>
     </header>
     <main>
-    <form class="row g-3" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-        <input type=hidden name="oid" value="00D8b0000032ChF">
-        <input type=hidden name="retURL" value="https://celebrated-sfogliatella-263662.netlify.app">
-
+            <input type=hidden name="oid" value="00D8b000002doGS">
+            <input type=hidden name="retURL" value="https://celebrated-sfogliatella-263662.netlify.app">
+            
         <div class="col-md-6">
             <label for="first_name" class="form-label">Nombre</label>
             <input type="text" class="form-control" id="first_name" maxlength="40" name="first_name" placeholder="Ingresa tu nombre..." size="20" required>
@@ -37,7 +37,7 @@
             <input type="text" class="form-control" id="email" maxlength="80" name="email" placeholder="Ingresa tu correo electrónico..." size="20" required>
         </div>
         <div class="col-md-6">
-            <label for="company" class="form-label">Teléfono</label>
+            <label for="phone" class="form-label">Teléfono</label>
             <input type="text" class="form-control" id="phone" maxlength="40" name="phone" placeholder="Ingresa tu teléfono..." size="20" required>
         </div>
         <div class="col-md-6">
@@ -50,21 +50,31 @@
         </div>
         
         <h3>¿Qué te gustaría donar?</h3>
-        <div class="checkbox">
-            <label><input type="checkbox" value="" class="my-checkbox">Ropa</label>
+            <select name="donacion">
+                <option  value="" selected disabled>Elige el tipo de donación que te gustaría realizar...</option>
+                <option value="Ropa">Ropa</option>
+                <option value="Alimento" selected>Alimento</option>
+                <option value="Dinero">Dinero</option>
+                <option value="Especies">Especies</option>
+            </select>
+
+            </select>
+        </option>
+        <!-- <div class="checkbox">
+            <label><input id="00N8b00000IItyV" name="00N8b00000IItyV" type="checkbox" value="1" class="my-checkbox">Ropa</label>
           </div>
           <div class="checkbox">
-            <label><input type="checkbox" value="" class="my-checkbox">Alimento</label>
+            <label><input id="00N8b00000IItya" name="00N8b00000IItya" type="checkbox" value="1" class="my-checkbox">Alimento</label>
           </div>
           <div class="checkbox">
-            <label><input type="checkbox" value="" class="my-checkbox">Dinero</label>
+            <label><input id="00N8b00000IItyf" name="00N8b00000IItyf" type="checkbox" value="1" class="my-checkbox">Dinero</label>
           </div>
           <div class="checkbox">
           <label for="propertytype-8">
-            <input type="checkbox" name="propertytype" id="propertytype-8" value="others">Especies
-            <input id="propertytype_other" name="propertytype_other" type="text" value="" placeholder="Describe qué te gustaría donar..." class="form-control" size="50%">      
+            <input id="00N8b00000IItyk" name="00N8b00000IItyk" type="checkbox" value="1" >Especies
+            <input id="00N8b00000IItyp" name="00N8b00000IItyp" type="text" wrap="soft" placeholder="Describe qué te gustaría donar..." class="form-control" size="50%">      
            </label>
-        </div>
+        </div> -->
 
         <p><i class="fa-solid fa-phone-volume"></i> Quiero que un representante se comunique conmigo</p>
         <div class="col-12">
