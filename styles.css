@@ -129,3 +129,21 @@ footer{
 .copyright{
     font-size: 12px;
 }
+.country{
+    display: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+select {
+    border: none;
+    outline: 1px solid lightgray;
+    border-radius: 4px;
+    scroll-behavior: smooth;
+    padding: 5px 2px; 
+}
+.donacion{
+    display: flex;
+    justify-content: center;
+}
